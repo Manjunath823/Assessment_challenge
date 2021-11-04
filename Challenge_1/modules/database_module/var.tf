@@ -1,13 +1,13 @@
 variable "storage" {
-    default = "10"
+  default = "10"
 }
 
 variable "env_name" {
-    default = "production"
+  default = "production"
 }
 
 variable "username" {
-    default = "admin"
+  default = "admin"
 }
 
 variable "pass" {}

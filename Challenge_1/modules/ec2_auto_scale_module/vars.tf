@@ -1,9 +1,9 @@
 variable "env_name" {
-    default = "production"
+  default = "production"
 }
 
 variable "instance_type" {
-    default = "t2.micro"
+  default = "t2.micro"
 }
 
 variable "vpc" {
@@ -15,13 +15,13 @@ variable "security_group" {
 }
 
 variable "web_port" {
-    default = "8080"
+  default = "8080"
 }
 
 variable "app_port" {
-    default = "8090"
+  default = "8090"
 }
 
 variable "max_instance_size" {
-    default = "2"
+  default = "2"
 }

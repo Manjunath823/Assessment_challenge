@@ -1,5 +1,5 @@
 variable "env_name" {
-    default = "Production"
+  default = "Production"
 }
 
 variable "availability_zone_names" {

@@ -1,3 +1,3 @@
 variable "db_port" {
-    default = "3306"
+  default = "3306"
 }
