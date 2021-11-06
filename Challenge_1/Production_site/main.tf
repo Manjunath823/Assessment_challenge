@@ -1,3 +1,8 @@
+provider "aws" {
+  version = "~> 3.0"
+  region  = "us-east-1"
+}
+
 module "production_vpc" {
   source           = "./modules/vpc_module"
   env_name         = "production"
